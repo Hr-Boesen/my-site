@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    text-align: center; /* Opfatter også billeder som tekst */
+    font-family: 'Merriweather', serif;
+    /*font-size: 2em; fonts størrelser bliver nedarvet, så hvis jeg sætter 2em i body, vil 
+    alle tekst definitioner som er children af body-elementet skulle ganges med 2 
+    Brug i stedet 2rem, som altid vil være relativ til roden.*/
+}
+
+p{
+  margin: 0px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top:100px;
+  }
+
+.anna-img{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.profile p{
+
+    width: 35%;
+    margin: auto;
+    color:#40514e;
+    
+}
+
+
+.bike-img-1{
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 75px;
+    
+}
+
+.bike-img-2{
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+    margin-top: 75px;
+    
+}
+
+
+
+.top-container{
+    background: #d9eeec;
+    position: relative; 
+    padding-top:100px;
+}
+
+.skills{
+ margin: 100px auto 100px auto;
+}
+
+.skill-row{
+ width: 50%;
+ margin: 100px auto 100px auto;
+ text-align: left; 
+line-height: 2;
+
+
+}
+   
+
+h1{
+    margin: 50px auto -10px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /* 16px = 100% = 1em = 1rem*/
+    color: #66BFBF;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal; 
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+h3{
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+
+.middle-container{
+
+
+}
+
+.bottom-container{
+
+        
+}
+
+.bottom-cloud{
+ position:absolute;
+ right: 300px; 
+ top: 40px; 
+}
+
+.top-cloud{
+position: absolute; 
+bottom: 300px;
+left: 300px;
+
+/*
+margin-left Sets the amount of margin to 
+the left of the element. left Sets the position 
+of the element relative to the leftmost border of its parent element */
+
+    
+}
+
